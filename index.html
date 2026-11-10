@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DRE Homes · Website Photoshoot · Full Shot Sheet</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#16161a;--muted:#6b6b73;--line:#e7e2d8;--bg:#faf8f4;--card:#fff;--gold:#b08d57;--teal:#2f6f73}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;font-size:15px}
+h1,h2,h3{font-family:"Cormorant Garamond",serif;font-weight:500;letter-spacing:.01em}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+header.hero{padding:72px 0 48px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#fff, var(--bg))}
+.eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:500}
+.hero h1{font-size:clamp(36px,5vw,60px);line-height:1.05;margin:14px 0 18px}
+.hero p{max-width:720px;color:var(--muted)}
+.dress{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:32px}
+.dress div{background:var(--card);border:1px solid var(--line);padding:18px 20px;border-radius:4px}
+.dress b{display:block;font-family:"Cormorant Garamond",serif;font-size:22px;font-weight:600;margin-bottom:4px}
+nav.toc{position:sticky;top:0;z-index:20;background:rgba(250,248,244,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav.toc .wrap{display:flex;gap:22px;overflow-x:auto;padding-top:14px;padding-bottom:14px;white-space:nowrap}
+nav.toc a{text-decoration:none;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+nav.toc a:hover{color:var(--ink)}
+nav.toc .count{margin-left:auto;color:var(--gold)}
+section.block{padding:56px 0 8px}
+section.block>h2{font-size:42px;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:8px}
+.sub{display:flex;align-items:baseline;gap:14px;margin:40px 0 18px;flex-wrap:wrap}
+.sub h3{font-size:30px}
+.sub span{color:var(--muted);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:4px;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s}
+.card:hover{box-shadow:0 10px 30px rgba(0,0,0,.06)}
+.card.picked{outline:2px solid var(--gold)}
+.main{position:relative;aspect-ratio:4/5;background:#f1ede6;cursor:zoom-in;overflow:hidden}
+.main img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.main:hover img{transform:scale(1.03)}
+.ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:#a39a8a;font-family:"Cormorant Garamond",serif;font-size:22px;text-align:center;padding:20px;background:repeating-linear-gradient(135deg,#f4f0e9 0 14px,#efe9df 14px 28px)}
+.ph small{font-family:Inter;font-size:11px;letter-spacing:.15em;text-transform:uppercase}
+.tag{position:absolute;top:12px;left:12px;background:rgba(22,22,26,.82);color:#fff;font-size:11px;letter-spacing:.16em;padding:5px 9px;border-radius:2px}
+.thumbs{display:flex;gap:6px;padding:8px 8px 0}
+.thumbs button{flex:1;aspect-ratio:1;border:1px solid var(--line);background:#f4f0e9;cursor:pointer;position:relative;overflow:hidden;border-radius:2px;padding:0}
+.thumbs button img{width:100%;height:100%;object-fit:cover;display:block}
+.thumbs button b{position:absolute;bottom:3px;right:4px;font-size:11px;background:rgba(255,255,255,.9);padding:0 4px;border-radius:2px}
+.thumbs .ph{font-size:0;padding:0}.thumbs .ph small{display:none}
+.thumbs button.on{outline:2px solid var(--ink);outline-offset:-2px}
+.body{padding:16px 18px 18px;flex:1;display:flex;flex-direction:column}
+.body h4{font-family:"Cormorant Garamond",serif;font-size:24px;font-weight:600}
+.body p{color:var(--muted);font-size:14px;margin:2px 0 10px}
+.opts{list-style:none;font-size:14px;margin-bottom:14px}
+.opts li{padding:5px 8px;border-radius:3px;cursor:pointer}
+.opts li b{display:inline-block;width:22px;color:var(--gold)}
+.opts li.on{background:#f4efe6}
+.checks{margin-top:auto;display:flex;gap:18px;font-size:13px;border-top:1px solid var(--line);padding-top:12px}
+.checks label{display:flex;align-items:center;gap:7px;cursor:pointer}
+.checks input{accent-color:var(--gold);width:16px;height:16px}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);margin-bottom:10px;font-size:14px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:500;background:#fcfaf6}
+td:first-child{font-weight:500;width:28%}
+.legend{color:var(--muted);font-size:14px;margin-top:8px}
+.list{list-style:none;display:grid;gap:12px;margin-top:20px}
+.list li{background:var(--card);border:1px solid var(--line);padding:14px 18px;border-radius:4px}
+footer{padding:48px 0 64px;color:var(--muted);font-size:13px;text-align:center}
+.lb{position:fixed;inset:0;background:rgba(12,12,14,.94);z-index:100;display:none;align-items:center;justify-content:center;flex-direction:column}
+.lb.open{display:flex}
+.lb img{max-width:92vw;max-height:80vh;object-fit:contain}
+.lb .ph{position:relative;width:min(560px,90vw);aspect-ratio:4/5;inset:auto}
+.lb .cap{color:#eee;margin-top:16px;font-size:14px;letter-spacing:.04em;text-align:center}
+.lb button{position:absolute;background:none;border:0;color:#fff;font-size:38px;cursor:pointer;padding:16px;opacity:.75}
+.lb button:hover{opacity:1}
+.lb .x{top:10px;right:16px;font-size:30px}.lb .pv{left:10px}.lb .nx{right:10px}
+.dia{background:#fff;border:1px solid var(--line);border-radius:4px;padding:16px;margin-bottom:12px}
+.dia svg{display:block;width:100%;max-width:760px;margin:0 auto;height:auto}
+.dia text{font-family:Inter,sans-serif;text-anchor:middle;dominant-baseline:central}
+.dia .th{font-size:14px;font-weight:600}.dia .ts{font-size:12px}.dia .l{text-anchor:start;fill:#6d6a64}
+.dia rect,.dia circle{stroke-width:.8}
+.dia .la rect{fill:#FAEEDA;stroke:#BA7517}.dia .la text{fill:#633806}
+.dia .lg rect{fill:#F1EFE8;stroke:#888780}.dia .lg text{fill:#444441}
+.dia .lt rect,.dia .lt circle{fill:#E1F5EE;stroke:#1D9E75}.dia .lt text{fill:#085041}
+.dia .arr{stroke:#888780;stroke-width:1.5;fill:none}
+.dia .leader{stroke:#b4b2a9;stroke-width:.8;stroke-dasharray:4 3}
+@media print{nav.toc,.lb{display:none!important}.card{break-inside:avoid}.main{cursor:default}body{background:#fff}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <div class="eyebrow">DRE Homes · Website Photoshoot · White room studio</div>
+  <h1>Full Shot Sheet: Leadership, Agents &amp; Lighting</h1>
+  <p>Everything for the shoot in one place: Qurat &amp; Mudassir (30 slots with 3 options each), the 8 agents (4 poses each plus 3 group shots), and the lighting setups with diagrams. Tap thumbnails to compare, tick <b>Pick</b> for the one you want and <b>Shot</b> once you have it.</p>
+  <div class="dress">
+    <div><b>Men</b>Tailored navy or charcoal suit, crisp white open-collar shirt (no tie), plain belt with no logo, polished oxfords.</div>
+    <div><b>Women</b>Tailored black or navy blazer with wide-leg trousers, ivory silk blouse, minimal gold or pearl jewellery, black pumps.</div>
+  </div>
+</div></header>
+
+<nav class="toc"><div class="wrap">
+  <a href="#mudassir">Mudassir</a><a href="#qurat">Qurat</a><a href="#duo">Duo</a><a href="#agents">Agents</a><a href="#group">Group</a><a href="#lighting">Lighting</a><a href="#order">Shoot day</a>
+  <span class="count" id="count"></span>
+</div></nav>
+
+<main class="wrap">
+  <section class="block"><h2>Qurat &amp; Mudassir</h2>
+    <div class="sub" id="mudassir"><h3>Mudassir: solo</h3><span>10 slots × 3 options.</span></div><div class="grid" data-set="M"></div>
+    <div class="sub" id="qurat"><h3>Qurat: solo</h3><span>10 slots × 3 options.</span></div><div class="grid" data-set="Q"></div>
+    <div class="sub" id="duo"><h3>Duo</h3><span>10 slots × 3 options. Keep a professional distance between them.</span></div><div class="grid" data-set="D"></div>
+  </section>
+
+  <section class="block"><h2>Agents</h2>
+    <div class="sub" id="agents"><h3>Agent solos</h3><span>Poses: 1 Classic headshot · 2 Arms crossed · 3 Full-length, hand in pocket · 4 With tablet. Same crop and camera height for everyone.</span></div><div class="grid" data-set="A"></div>
+    <div class="sub" id="group"><h3>Team group</h3><span>Shoot wide at f/11 so every face is sharp; light the background evenly across the full width.</span></div><div class="grid" data-set="G"></div>
+  </section>
+
+  <section class="block" id="lighting"><h2>Lighting setup</h2>
+    <p class="legend">Top-view plans. Amber = lights, grey = wall and reflectors, teal = subject and camera.</p>
+    <div id="tables"></div>
+  </section>
+
+  <section class="block" id="order"><h2>Shoot-day order &amp; props</h2>
+    <ul class="list">
+      <li><b>Order:</b> Mudassir solos → Qurat solos → duo → agent solos → agent group last with everyone present.</li>
+      <li><b>Props:</b> leather folio, black tablet, rolled architectural plans, house keys, minimal white chair, small white table, 4 white stools.</li>
+      <li><b>Wardrobe check:</b> no visible logos, no all-white outfits, steam jackets before each person; blotting papers ready.</li>
+      <li><b>Web layouts:</b> shoot horizontal and vertical, plus wide frames with empty space for text.</li>
+    </ul>
+  </section>
+</main>
+<footer>Pose previews are AI-generated in OpenArt for planning only. Faces in group shots are approximate. They are not the final photos.</footer>
+
+<div class="lb" id="lb"><button class="x" aria-label="Close">&times;</button><button class="pv" aria-label="Previous">&#8249;</button><div id="lbMedia"></div><div class="cap" id="lbCap"></div><button class="nx" aria-label="Next">&#8250;</button></div>
+
+<script>
+const ABC=['A','B','C'];
+const slots={
+M:{who:'Mudassir',dir:'photos2',items:[
+['Classic headshot','Chest-up, 85mm. Calm, confident smile.',['Three-quarter turn','Straight-on','Eyes off-camera']],
+['Arms','Waist-up, shoulders relaxed.',['Arms crossed','Hands clasped','Half arm-cross']],
+['Full-length stance','Weight on back leg, relaxed.',['Hand in pocket','Both hands in pockets','Hands behind back']],
+['Detail action','Look down at the detail, then up to the lens.',['Buttoning jacket','Cuff & watch','Adjusting glasses']],
+['Seated on stool','Minimal white stool, full length.',['Leaning forward','Upright, foot on rung','Perched on edge']],
+['Editorial profile','Soft side light, high-end magazine feel.',['Profile to light','Looking down','Chin up to light']],
+['Walking','Shoot in burst, pick the best stride.',['Toward camera','Side-on, glance','Buttoning while walking']],
+['With a prop','Real estate props at chest height.',['Leather folio','Tablet','Architectural plans']],
+['Over-the-shoulder & wall','Back three-quarter or leaning.',['Over-the-shoulder','Leaning on wall','Walking away, glance back']],
+['Thoughtful','Fingers light, never covering the face.',['Hand near chin','Chin on fist at table','Steepled hands']]]},
+Q:{who:'Qurat',dir:'photos2',items:[
+['Classic headshot','Chest-up, 85mm. Elegant, soft smile.',['Three-quarter turn','Straight-on','Eyes off-camera']],
+['Arms','Waist-up, shoulders relaxed.',['Arms crossed','Hands clasped','Half arm-cross']],
+['Full-length stance','Weight on back leg, poised.',['Hand on wrist','Hands in pockets','Hand on hip']],
+['Detail action','Look down at the detail, then up to the lens.',['Adjusting watch','Touching necklace','Tucking hair']],
+['Seated on stool','Minimal white stool, full length.',['Ankles crossed','Legs crossed at knee','Perched on edge']],
+['Editorial profile','Soft side light, high-end magazine feel.',['Profile to light','Looking down','Chin up to light']],
+['Walking','Shoot in burst, pick the best stride.',['Toward camera','Side-on, glance','Walking with folio']],
+['With a prop','Real estate props at chest height.',['Leather folio','Tablet','Architectural plans']],
+['Over-the-shoulder & wall','Back three-quarter or leaning.',['Over-the-shoulder','Leaning on wall','Walking away, glance back']],
+['Thoughtful','Fingers light, never covering the face.',['Hand near chin','Chin on hand at table','Hands clasped at chest']]]},
+D:{who:'Qurat and Mudassir',dir:'photos2',items:[
+['Leadership classic','Professional space between them, both to camera.',['Angled in','Straight to camera','Same-side diagonal']],
+['Staggered depth','f/8–f/11 so both stay sharp.',['Qurat in front','Mudassir in front','Diagonal depth']],
+['Shape poses','Strong team silhouettes.',['V-shape','Angled outward','Angled in']],
+['In conversation','Candid, natural interaction.',['Standing chat','Table discussion','Walk & talk']],
+['Reviewing together','Tablet or floor plans as props.',['Tablet, he points','Floor plans','Tablet, laughing']],
+['Seated + standing','Minimal white chair or stools.',['Qurat seated','Both on stools','Mudassir seated']],
+['Walking together','Mid-stride toward camera.',['Chatting','Both to camera','Glance back']],
+['Deal moment','The real estate money shot.',['Handshake, profile','Handshake to camera','Handing over keys']],
+['Power pose','Camera slightly below eye level.',['Arms crossed','Hands in pockets','Seated on stools']],
+['Genuine laugh','Get them laughing between setups.',['Laughing to camera','Laughing together','Laughing, looking down']]]}
+};
+const agents=[['Wail Arwani','Charcoal suit, white open-collar shirt'],['Deepak Dhalia','Navy suit, white open-collar shirt'],['Alia Rabi','Black blazer & trousers, ivory silk blouse'],['Alina Kovalova','Black blazer & trousers, ivory silk blouse'],['Ramy Jamous','Charcoal suit, white shirt, white pocket square'],['Rita Sfeir','Navy blazer & trousers, ivory silk blouse'],['Siro Sivarajah','Navy suit, white open-collar shirt, gold watch'],['Swati Sharma','Navy blazer & trousers, ivory blouse, pearls']];
+const poses=['Classic headshot','Arms crossed','Full-length, hand in pocket','With tablet'];
+const groups=[['V-formation','Two people at the point of the V, the rest stepping back diagonally.'],['Two staggered rows','Four seated on white stools, four standing in the gaps behind.'],['Walking together','All eight walking toward camera, chatting. Shoot in burst.']];
+
+const cards=[];
+for(const k of 'MQD'){const s=slots[k];s.items.forEach(([t,d,o],i)=>{const id=k+String(i+1).padStart(2,'0');
+  cards.push({set:k,id,tag:id,title:t,desc:d,alt:`${s.who}, ${t}`,keys:ABC,labels:o,imgs:ABC.map(x=>`${s.dir}/${id}${x}.jpg`),checks:[['pick','Pick this option'],['shot','Shot']]})})}
+agents.forEach(([n,d],i)=>cards.push({set:'A',id:'A'+(i+1),tag:'AGENT '+String(i+1).padStart(2,'0'),title:n,desc:d,alt:n,keys:['1','2','3','4'],labels:poses,imgs:[1,2,3,4].map(p=>`photos3/A${i+1}P${p}.jpg`),checks:[['pick','Main profile photo'],['shot','All shot']]}));
+groups.forEach(([t,d],i)=>cards.push({set:'G',id:'G'+(i+1),tag:'GROUP 0'+(i+1),title:t,desc:d,alt:'Team group, '+t,keys:[],labels:[],imgs:[`photos3/G${i+1}.jpg`],checks:[['shot','Shot']]}));
+
+const store=JSON.parse(localStorage.getItem('dreShot')||'{}');
+const save=()=>{localStorage.setItem('dreShot',JSON.stringify(store));count()};
+function fb(el){const d=document.createElement('div');d.className='ph';d.innerHTML=el.dataset.t+'<small>'+el.dataset.s+'</small>';el.replaceWith(d)}
+const img=(src,alt,c,k)=>`<img src="${src}" alt="${alt}" loading="lazy" data-t="${c.title.replace(/&/g,'&amp;')}" data-s="${c.tag}${k?' · Option '+k:''}" onerror="fb(this)">`;
+
+cards.forEach((c,ci)=>{
+  const st=store[c.id]||(store[c.id]={sel:0});
+  const el=document.createElement('article');el.className='card';el.id=c.id;
+  const render=()=>{
+    const s=st.sel;
+    el.classList.toggle('picked',!!st.pick);
+    el.querySelector('.main').innerHTML=img(c.imgs[s],c.alt,c,c.keys[s])+`<span class="tag">${c.tag}${c.keys[s]?' · '+c.keys[s]:''}</span>`;
+    el.querySelectorAll('.thumbs button').forEach((b,i)=>b.classList.toggle('on',i===s));
+    el.querySelectorAll('.opts li').forEach((l,i)=>l.classList.toggle('on',i===s));
+  };
+  el.innerHTML=`<div class="main" tabindex="0"></div>`+
+    (c.imgs.length>1?`<div class="thumbs">${c.imgs.map((s,i)=>`<button aria-label="Option ${c.keys[i]}">${img(s,'',c,c.keys[i])}<b>${c.keys[i]}</b></button>`).join('')}</div>`:'')+
+    `<div class="body"><h4>${c.title}</h4><p>${c.desc}</p>`+
+    (c.labels.length?`<ul class="opts">${c.labels.map((l,i)=>`<li><b>${c.keys[i]}</b>${l}</li>`).join('')}</ul>`:'')+
+    `<div class="checks">${c.checks.map(([k,l])=>`<label><input type="checkbox" data-k="${k}" ${st[k]?'checked':''}>${l}</label>`).join('')}</div></div>`;
+  const pick=i=>{st.sel=i;save();render()};
+  el.querySelectorAll('.thumbs button').forEach((b,i)=>b.onclick=()=>pick(i));
+  el.querySelectorAll('.opts li').forEach((l,i)=>l.onclick=()=>pick(i));
+  el.querySelectorAll('.checks input').forEach(x=>x.onchange=()=>{st[x.dataset.k]=x.checked;save();render()});
+  el.querySelector('.main').onclick=()=>openLb(ci,st.sel);
+  document.querySelector(`.grid[data-set="${c.set}"]`).appendChild(el);
+  render();
+});
+
+const flat=cards.flatMap((c,ci)=>c.imgs.map((s,i)=>({ci,i})));
+let cur=0;const lb=document.getElementById('lb');
+function showLb(){const {ci,i}=flat[cur],c=cards[ci];
+  document.getElementById('lbMedia').innerHTML=img(c.imgs[i],c.alt,c,c.keys[i]);
+  document.getElementById('lbCap').textContent=`${c.tag}${c.keys[i]?' · Option '+c.keys[i]:''} — ${c.title}${c.labels[i]?': '+c.labels[i]:''}`;}
+function openLb(ci,i){cur=flat.findIndex(f=>f.ci===ci&&f.i===i);lb.classList.add('open');showLb()}
+const step=d=>{cur=(cur+d+flat.length)%flat.length;showLb()};
+lb.querySelector('.x').onclick=()=>lb.classList.remove('open');
+lb.querySelector('.pv').onclick=()=>step(-1);lb.querySelector('.nx').onclick=()=>step(1);
+lb.onclick=e=>{if(e.target===lb)lb.classList.remove('open')};
+addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')lb.classList.remove('open');if(e.key==='ArrowLeft')step(-1);if(e.key==='ArrowRight')step(1)});
+
+function count(){const v=Object.values(store);document.getElementById('count').textContent=`${v.filter(x=>x.shot).length} / ${cards.length} shot`}
+count();
+
+const DIA={"1": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 680 450\" role=\"img\" aria-label=\"Mudassir lighting, top view\"><defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M2 1L8 5L2 9\" fill=\"none\" stroke=\"context-stroke\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></marker></defs><g class=\"lg\"><rect x=\"60\" y=\"30\" width=\"560\" height=\"26\" rx=\"4\"></rect><text class=\"th\" x=\"340.0\" y=\"43\">White background wall</text></g><g class=\"la\"><rect x=\"80\" y=\"88\" width=\"130\" height=\"48\" rx=\"6\"></rect><text class=\"th\" x=\"145.0\" y=\"103.0\">BG light</text><text class=\"ts\" x=\"145.0\" y=\"122.0\">+1 stop</text></g><g class=\"la\"><rect x=\"470\" y=\"88\" width=\"130\" height=\"48\" rx=\"6\"></rect><text class=\"th\" x=\"535.0\" y=\"103.0\">BG light</text><text class=\"ts\" x=\"535.0\" y=\"122.0\">+1 stop</text></g><line x1=\"150\" y1=\"86\" x2=\"175\" y2=\"60\" class=\"arr\" marker-end=\"url(#ar)\"></line><line x1=\"530\" y1=\"86\" x2=\"505\" y2=\"60\" class=\"arr\" marker-end=\"url(#ar)\"></line><line class=\"leader\" x1=\"340\" y1=\"60\" x2=\"340\" y2=\"178\"></line><text class=\"ts l\" x=\"350\" y=\"118\">2\u20133 m</text><g class=\"la\"><rect x=\"460\" y=\"160\" width=\"150\" height=\"48\" rx=\"6\"></rect><text class=\"th\" x=\"535.0\" y=\"175.0\">Rim strip</text><text class=\"ts\" x=\"535.0\" y=\"194.0\">Same power as key</text></g><line x1=\"460\" y1=\"190\" x2=\"378\" y2=\"208\" class=\"arr\" marker-end=\"url(#ar)\"></line><g class=\"lt\"><circle cx=\"340\" cy=\"215\" r=\"36\"></circle><text class=\"th\" x=\"340\" y=\"215\">Mudassir</text></g><g class=\"la\"><rect x=\"60\" y=\"272\" width=\"200\" height=\"56\" rx=\"6\"></rect><text class=\"th\" x=\"160.0\" y=\"291.0\">Key: 150 cm octabox</text><text class=\"ts\" x=\"160.0\" y=\"310.0\">45\u00b0 left, 70 cm above eye</text></g><line x1=\"260\" y1=\"282\" x2=\"310\" y2=\"240\" class=\"arr\" marker-end=\"url(#ar)\"></line><g class=\"lg\"><rect x=\"450\" y=\"272\" width=\"170\" height=\"56\" rx=\"6\"></rect><text class=\"th\" x=\"535.0\" y=\"291.0\">Reflector fill</text><text class=\"ts\" x=\"535.0\" y=\"310.0\">Low and close, 1 m</text></g><line x1=\"450\" y1=\"288\" x2=\"372\" y2=\"238\" class=\"arr\" marker-end=\"url(#ar)\"></line><g class=\"lt\"><rect x=\"260\" y=\"380\" width=\"160\" height=\"44\" rx=\"6\"></rect><text class=\"th\" x=\"340.0\" y=\"402.0\">Camera \u00b7 85mm \u00b7 f/8</text></g><line x1=\"340\" y1=\"378\" x2=\"340\" y2=\"254\" class=\"arr\" marker-end=\"url(#ar)\"></line></svg>", "2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 680 450\" role=\"img\" aria-label=\"Qurat lighting, top view\"><defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M2 1L8 5L2 9\" fill=\"none\" stroke=\"context-stroke\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></marker></defs><g class=\"lg\"><rect x=\"60\" y=\"30\" width=\"560\" height=\"26\" rx=\"4\"></rect><text class=\"th\" x=\"340.0\" y=\"43\">White background wall</text></g><g class=\"la\"><rect x=\"80\" y=\"88\" width=\"130\" height=\"48\" rx=\"6\"></rect><text class=\"th\" x=\"145.0\" y=\"103.0\">BG light</text><text class=\"ts\" x=\"145.0\" y=\"122.0\">+1 stop</text></g><g class=\"la\"><rect x=\"470\" y=\"88\" width=\"130\" height=\"48\" rx=\"6\"></rect><text class=\"th\" x=\"535.0\" y=\"103.0\">BG light</text><text class=\"ts\" x=\"535.0\" y=\"122.0\">+1 stop</text></g><line x1=\"150\" y1=\"86\" x2=\"175\" y2=\"60\" class=\"arr\" marker-end=\"url(#ar)\"></line><line x1=\"530\" y1=\"86\" x2=\"505\" y2=\"60\" class=\"arr\" marker-end=\"url(#ar)\"></line><line class=\"leader\" x1=\"340\" y1=\"60\" x2=\"340\" y2=\"178\"></line><text class=\"ts l\" x=\"350\" y=\"118\">2\u20133 m</text><g class=\"la\"><rect x=\"460\" y=\"160\" width=\"150\" height=\"48\" rx=\"6\"></rect><text class=\"th\" x=\"535.0\" y=\"175.0\">Rim strip</text><text class=\"ts\" x=\"535.0\" y=\"194.0\">\u00bd stop under key</text></g><line x1=\"460\" y1=\"190\" x2=\"378\" y2=\"208\" class=\"arr\" marker-end=\"url(#ar)\"></line><g class=\"lt\"><circle cx=\"340\" cy=\"215\" r=\"36\"></circle><text class=\"th\" x=\"340\" y=\"215\">Qurat</text></g><g class=\"la\"><rect x=\"60\" y=\"272\" width=\"200\" height=\"56\" rx=\"6\"></rect><text class=\"th\" x=\"160.0\" y=\"291.0\">Key: 150 cm octabox</text><text class=\"ts\" x=\"160.0\" y=\"310.0\">45\u00b0 left, 50 cm above eye</text></g><line x1=\"260\" y1=\"282\" x2=\"310\" y2=\"240\" class=\"arr\" marker-end=\"url(#ar)\"></line><g class=\"lg\"><rect x=\"450\" y=\"272\" width=\"170\" height=\"56\" rx=\"6\"></rect><text class=\"th\" x=\"535.0\" y=\"291.0\">Reflector fill</text><text class=\"ts\" x=\"535.0\" y=\"310.0\">Chest height, 1.5 m</text></g><line x1=\"450\" y1=\"288\" x2=\"372\" y2=\"238\" class=\"arr\" marker-end=\"url(#ar)\"></line><g class=\"lt\"><rect x=\"260\" y=\"380\" width=\"160\" height=\"44\" rx=\"6\"></rect><text class=\"th\" x=\"340.0\" y=\"402.0\">Camera \u00b7 85mm \u00b7 f/8</text></g><line x1=\"340\" y1=\"378\" x2=\"340\" y2=\"254\" class=\"arr\" marker-end=\"url(#ar)\"></line></svg>", "4": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 680 460\" role=\"img\" aria-label=\"Duo lighting, top view\"><defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M2 1L8 5L2 9\" fill=\"none\" stroke=\"context-stroke\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></marker></defs><g class=\"lg\"><rect x=\"60\" y=\"30\" width=\"560\" height=\"26\" rx=\"4\"></rect><text class=\"th\" x=\"340.0\" y=\"43\">White background wall</text></g><g class=\"la\"><rect x=\"90\" y=\"92\" width=\"110\" height=\"40\" rx=\"6\"></rect><text class=\"th\" x=\"145.0\" y=\"112.0\">BG light</text></g><g class=\"la\"><rect x=\"480\" y=\"92\" width=\"110\" height=\"40\" rx=\"6\"></rect><text class=\"th\" x=\"535.0\" y=\"112.0\">BG light</text></g><line x1=\"150\" y1=\"90\" x2=\"175\" y2=\"62\" class=\"arr\" marker-end=\"url(#ar)\"></line><line x1=\"530\" y1=\"90\" x2=\"505\" y2=\"62\" class=\"arr\" marker-end=\"url(#ar)\"></line><line class=\"leader\" x1=\"340\" y1=\"60\" x2=\"340\" y2=\"180\"></line><text class=\"ts l\" x=\"350\" y=\"118\">2\u20133 m</text><g class=\"la\"><rect x=\"60\" y=\"165\" width=\"110\" height=\"40\" rx=\"6\"></rect><text class=\"th\" x=\"115.0\" y=\"185.0\">Rim strip</text></g><g class=\"la\"><rect x=\"510\" y=\"165\" width=\"110\" height=\"40\" rx=\"6\"></rect><text class=\"th\" x=\"565.0\" y=\"185.0\">Rim strip</text></g><line x1=\"170\" y1=\"190\" x2=\"230\" y2=\"205\" class=\"arr\" marker-end=\"url(#ar)\"></line><line x1=\"510\" y1=\"190\" x2=\"450\" y2=\"205\" class=\"arr\" marker-end=\"url(#ar)\"></line><g class=\"lt\"><circle cx=\"270\" cy=\"215\" r=\"38\"></circle><text class=\"th\" x=\"270\" y=\"215\">Mudassir</text></g><g class=\"lt\"><circle cx=\"410\" cy=\"215\" r=\"38\"></circle><text class=\"th\" x=\"410\" y=\"215\">Qurat</text></g><g class=\"la\"><rect x=\"60\" y=\"290\" width=\"200\" height=\"56\" rx=\"6\"></rect><text class=\"th\" x=\"160.0\" y=\"309.0\">Key: 150 cm octabox</text><text class=\"ts\" x=\"160.0\" y=\"328.0\">2.5\u20133 m back, raised</text></g><line x1=\"260\" y1=\"300\" x2=\"320\" y2=\"252\" class=\"arr\" marker-end=\"url(#ar)\"></line><g class=\"lg\"><rect x=\"440\" y=\"290\" width=\"180\" height=\"56\" rx=\"6\"></rect><text class=\"th\" x=\"530.0\" y=\"309.0\">V-flat or reflector</text><text class=\"ts\" x=\"530.0\" y=\"328.0\">Fill, white side</text></g><line x1=\"440\" y1=\"305\" x2=\"382\" y2=\"248\" class=\"arr\" marker-end=\"url(#ar)\"></line><g class=\"lt\"><rect x=\"270\" y=\"390\" width=\"140\" height=\"44\" rx=\"6\"></rect><text class=\"th\" x=\"340.0\" y=\"412.0\">Camera, 50\u201385mm</text></g><line x1=\"340\" y1=\"388\" x2=\"340\" y2=\"262\" class=\"arr\" marker-end=\"url(#ar)\"></line></svg>", "5": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 680 460\" role=\"img\" aria-label=\"Group of 8 lighting, top view\"><defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M2 1L8 5L2 9\" fill=\"none\" stroke=\"context-stroke\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></marker></defs><g class=\"lg\"><rect x=\"40\" y=\"30\" width=\"600\" height=\"26\" rx=\"4\"></rect><text class=\"th\" x=\"340.0\" y=\"43\">White background wall</text></g><g class=\"la\"><rect x=\"50\" y=\"88\" width=\"90\" height=\"36\" rx=\"6\"></rect><text class=\"th\" x=\"95.0\" y=\"106.0\">BG 1</text></g><g class=\"la\"><rect x=\"155\" y=\"88\" width=\"90\" height=\"36\" rx=\"6\"></rect><text class=\"th\" x=\"200.0\" y=\"106.0\">BG 2</text></g><g class=\"la\"><rect x=\"435\" y=\"88\" width=\"90\" height=\"36\" rx=\"6\"></rect><text class=\"th\" x=\"480.0\" y=\"106.0\">BG 3</text></g><g class=\"la\"><rect x=\"540\" y=\"88\" width=\"90\" height=\"36\" rx=\"6\"></rect><text class=\"th\" x=\"585.0\" y=\"106.0\">BG 4</text></g><line x1=\"95\" y1=\"86\" x2=\"140\" y2=\"60\" class=\"arr\" marker-end=\"url(#ar)\"></line><line x1=\"200\" y1=\"86\" x2=\"250\" y2=\"60\" class=\"arr\" marker-end=\"url(#ar)\"></line><line x1=\"480\" y1=\"86\" x2=\"430\" y2=\"60\" class=\"arr\" marker-end=\"url(#ar)\"></line><line x1=\"585\" y1=\"86\" x2=\"540\" y2=\"60\" class=\"arr\" marker-end=\"url(#ar)\"></line><line class=\"leader\" x1=\"340\" y1=\"60\" x2=\"340\" y2=\"176\"></line><text class=\"ts l\" x=\"350\" y=\"118\">3\u20134 m</text><g class=\"la\"><rect x=\"40\" y=\"186\" width=\"100\" height=\"40\" rx=\"6\"></rect><text class=\"th\" x=\"90.0\" y=\"206.0\">Rim strip</text></g><g class=\"la\"><rect x=\"540\" y=\"186\" width=\"100\" height=\"40\" rx=\"6\"></rect><text class=\"th\" x=\"590.0\" y=\"206.0\">Rim strip</text></g><line x1=\"140\" y1=\"206\" x2=\"166\" y2=\"206\" class=\"arr\" marker-end=\"url(#ar)\"></line><line x1=\"540\" y1=\"206\" x2=\"514\" y2=\"206\" class=\"arr\" marker-end=\"url(#ar)\"></line><g class=\"lt\"><rect x=\"170\" y=\"180\" width=\"340\" height=\"52\" rx=\"6\"></rect><text class=\"th\" x=\"340.0\" y=\"197.0\">8 agents</text><text class=\"ts\" x=\"340.0\" y=\"216.0\">V, rows or walking line</text></g><g class=\"la\"><rect x=\"50\" y=\"296\" width=\"200\" height=\"56\" rx=\"6\"></rect><text class=\"th\" x=\"150.0\" y=\"315.0\">Key 1: large softbox</text><text class=\"ts\" x=\"150.0\" y=\"334.0\">45\u00b0 left, high, 3\u20134 m</text></g><g class=\"la\"><rect x=\"430\" y=\"296\" width=\"200\" height=\"56\" rx=\"6\"></rect><text class=\"th\" x=\"530.0\" y=\"315.0\">Key 2: large softbox</text><text class=\"ts\" x=\"530.0\" y=\"334.0\">45\u00b0 right, high, 3\u20134 m</text></g><line x1=\"250\" y1=\"304\" x2=\"292\" y2=\"238\" class=\"arr\" marker-end=\"url(#ar)\"></line><line x1=\"430\" y1=\"304\" x2=\"388\" y2=\"238\" class=\"arr\" marker-end=\"url(#ar)\"></line><g class=\"lt\"><rect x=\"270\" y=\"390\" width=\"140\" height=\"44\" rx=\"6\"></rect><text class=\"th\" x=\"340.0\" y=\"412.0\">Camera, 35\u201350mm</text></g><line x1=\"340\" y1=\"388\" x2=\"340\" y2=\"240\" class=\"arr\" marker-end=\"url(#ar)\"></line></svg>"};
+const T=[
+['Base solo setup (everyone)','Item','Setting',[['Key light','150 cm octabox, 45° camera-left, 1.5–2 m from subject; centre ~50 cm above eye line, angled down'],['Fill','White reflector camera-right, chest height, 1–1.5 m away'],['Rim strip','Behind subject camera-right, aimed at shoulder and hair'],['Background lights','1 stop brighter than the key; subject 2–3 m from the wall'],['Camera','f/8 · ISO 100 · 1/160 s · 85mm headshots, 50–70mm full-length'],['Floor mark',"Tape one mark; don't move lights between sessions so every portrait matches"]]],
+['Mudassir: solo','Item','Setting',[['Key height','~20 cm higher than for Qurat (≈70 cm above eye), to keep the octabox out of his glasses'],['Face angle','Turn his face slightly away from the key so reflections slide off the lenses'],['Fill','Reflector lower and closer (~1 m), to lift shadow under the beard and jaw'],['Rim','Same power as the key, to separate the navy suit shoulders'],['Watch for','Glare in the glasses on every frame; shiny forehead, so keep blotting papers ready']]],
+['Qurat: solo','Item','Setting',[['Key height','Standard, ~50 cm above eye line, for soft cheekbone shadows'],['Face angle','Chin slightly forward and down, face toward the key'],['Fill','Reflector further away (~1.5 m), so she keeps gentle contouring'],['Rim','½ stop under the key, so hair edges glow softly without blowing out'],['Watch for','Ivory silk blouse clipping: check the histogram on the blouse. Black blazer losing shape: keep the rim on']]],
+['Lighting changes by pose (solos)','Pose','Lighting change',[['1–2 Headshots & arms','Base setup, no changes. Shoot first while makeup and hair are fresh'],['3 Full-length','Key back to ~2.5 m and slightly higher so light reaches the shoes; check the floor is evenly white'],['4 Detail action','Base setup. Mudassir adjusting glasses: the hand creates new reflections, shoot several frames'],['5 Seated on stool','Lower the key ~30 cm and bring the reflector down to knee height'],['6 Profile','Key to the side they face (~90° to camera); fill off or away for an editorial look'],['7 Walking',"Light the end of a 3–4 step walk and shoot in burst; continuous LEDs if strobes can't recycle"],['8 Prop',"Angle the tablet slightly down so the screen doesn't reflect the octabox"],['9 Over-the-shoulder','Rim becomes the main light on the back: raise it to key power; key still reaches the face'],['10 Thoughtful hand','Hand can shadow the chin: bring the reflector a little closer']]],
+['Qurat & Mudassir: duo','Item','Setting',[['Key','Move it back to 2.5–3 m and raise it so one octabox lights both faces evenly'],['Feathering','Aim the centre of the octabox slightly past Mudassir toward Qurat to even out fall-off'],['Rim','One strip per person on the outer sides'],['Handshake / keys','They turn toward each other: bring the key more in front (closer to camera) to light both faces'],['Seated / table','Lower the key ~30–40 cm above eye line; reflector at table height'],['Camera','f/8 (f/11 for staggered) · 85mm headshots, 50–70mm full-length · chest height · tape both marks']]],
+['Agents: group of 8','Item','Setting',[['Keys','Two large softboxes at 45° both sides, 3–4 m back, high; cross-light: left key aims at the right half and vice versa'],['Fill','Keys fill each other; if the back row is dark, add a large white umbrella above/behind camera ~2 stops under'],['Background','Four lights, two per side, 1 stop over the keys; flag with barn doors so nothing spills'],['Rim','One strip on each outer side for the end people'],['Camera','f/11 · ISO 100 · 1/160 s · 35–50mm from 5–6 m · tripod at chest height'],['V-formation','Front point is closer to the keys: pull keys back a step; meter front and an end person'],['Two rows',"Raise keys higher so light reaches the back row over the front row's heads"],['Walking',"Tape start/end lines, 3–4 steps, light the end line, burst; LEDs if strobes can't keep up"],['Before shooting','Meter left end, centre and right end within ⅓ stop; test with stand-ins; shoot group last']]],
+['Agent solos','Who','Note',[['All agents','Same solo setup as Qurat & Mudassir so the whole team page matches'],['Alia','Platinum hair blows out easily: lower her rim light'],['Swati','Tied-back hair: bring the rim slightly lower to catch the shoulders']]]
+];
+document.getElementById('tables').innerHTML=T.map(([h,a,b,rows],i)=>`<div class="sub"><h3>${h}</h3></div>${DIA[i]?`<div class="dia">${DIA[i]}</div>`:""}<table><tr><th>${a}</th><th>${b}</th></tr>${rows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td></tr>`).join('')}</table>`).join('');
+</script>
+</body>
+</html>
